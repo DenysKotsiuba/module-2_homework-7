@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "homework-7"
+version = "0.1.0"
+description = ""
+authors = ["Denys Kotsiuba"]
+readme = "README.md"
+packages = [{include = "homework_7"}]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+psycopg2-binary = "~2.9.6"
+faker = "~18.10.1"
+
+[tool.poetry.group.dev.dependencies]
+alembic = "~1.11.1"
+SQLAlchemy = "~2.0.15"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
